@@ -1,0 +1,96 @@
+.header {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.linkedInIMG {
+  margin-top: 1px;
+  height: auto;
+  width: 135px;
+  margin-left: 190px;
+}
+
+.forgotPassword {
+  margin: auto;
+  padding: 20px;
+  height: 324px;
+  width: 380px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.301);
+}
+
+.txt {
+  margin-left: 15px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+.minitxt {
+  margin-left: 15px;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+}
+
+input {
+  margin: auto;
+  display: flex;
+  margin-top: 40px;
+  transition: 0.125s;
+}
+
+input:focus {
+  outline-color: #2977c9;
+}
+
+.email {
+  margin-top: 40px;
+  width: 352px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.signIn {
+  margin: auto;
+  margin-top: 30px;
+  height: 50px;
+  width: 360px;
+  background-color: #2977c9;
+  border-radius: 60px;
+  text-align: center;
+  transition: 0.125s;
+  cursor: pointer;
+}
+
+.signInText {
+  padding-top: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.signIn:hover {
+  background-color: #1f5a98;
+}
+
+.back {
+  margin-top: 25px;
+  margin-left: 170px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
